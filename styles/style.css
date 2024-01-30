@@ -1,0 +1,87 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Black: hsl(0, 0%, 8%);
+
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--Black);
+    color: var(--White);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 37.5rem;
+    background-color: var(--Dark-Grey);
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2.5rem;
+    border-radius: 1.0rem;
+    text-align: center;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.city{
+    color: var(--Green);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+header p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+main nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main li{
+    list-style: none;
+}
+
+main li a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--White);
+    width: 30.0rem;
+    background-color: var(--Grey);
+    padding: 1.5rem 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+main li a:hover{
+    background: var(--Green);
+    color: #506411;
+}
+
+
+picture{
+    
+    margin-bottom: 2rem;
+}
+
+picture img{
+    border-radius: 50%;
+    width: 50%;
+}
